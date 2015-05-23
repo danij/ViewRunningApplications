@@ -43,8 +43,6 @@ ProcessInstance ProcessRetriever::ReadInstanceInfo(DWORD pid)
     result.Pid = pid;
     result.PrivateBytes = 0;
 
-    //PrivilegeEscalator escalator;
-
     auto handle = OpenProcess(PROCESS_QUERY_INFORMATION | PROCESS_VM_READ, FALSE, pid);
     if (NULL == handle)
     {
