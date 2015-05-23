@@ -185,9 +185,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="ProcessInfo.h" />
     <ClInclude Include="ProcessRetriever.h" />
     <ClInclude Include="Resource.h" />
